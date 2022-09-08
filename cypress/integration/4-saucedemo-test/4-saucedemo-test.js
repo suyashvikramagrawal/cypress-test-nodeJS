@@ -36,3 +36,15 @@ describe("Login functionality of Sauce Demo",function(){
         checkoutinfo.checkout(jsonData);     
     })
 })
+
+
+// Use app actions
+// create different branches for page object and app actions
+
+// instead of input-data.json use fixtures or cypress.json
+// go to heroku app and automate checkbox, radiobox, fileupload....
+
+// CICD - Continuous Intergration/Deployment
+//
+// Github actions
+// Browserstack is like a provider 
