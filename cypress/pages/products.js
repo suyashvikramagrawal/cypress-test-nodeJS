@@ -1,4 +1,3 @@
-import jsonData from '../integration/4-saucedemo-test/input-data.json'
 import { FindElement } from '../support/commands';
 
 const commonMethod = new FindElement();

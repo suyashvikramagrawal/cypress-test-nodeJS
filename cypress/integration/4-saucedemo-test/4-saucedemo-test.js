@@ -11,7 +11,7 @@ const products = new Products();
 const cart = new Cart();
 const checkoutinfo = new CheckoutInformation();
 
-let jsonData = require('./input-data.json');
+let jsonData = require('/Users/suyashvikramagrawal/Documents/NodeJS Lean/cypress-test-nodeJS/cypress/fixtures/input-data.json');
 
 describe("Login functionality of Sauce Demo",function(){
     
