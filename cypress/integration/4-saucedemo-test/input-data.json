@@ -1,0 +1,19 @@
+{ 
+    "userID":"standard_user",
+    "password":"secret_sauce",
+    "name": "Sara",
+    "gender": "Female",
+    "items":[
+        {
+          "item": "sauce labs bike light",
+          "productID":"add-to-cart-sauce-labs-bike-light"
+        },
+        {
+          "item": "test.allthethings() t-shirt (red)",
+          "productID":"add-to-cart-sauce-labs-bolt-t-shirt"
+        }
+    ],
+    "first_name":"Sara",
+    "last_name":"Williams",
+    "zipCode":"123456"
+}

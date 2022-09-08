@@ -1,0 +1,6 @@
+{
+    "video":false,
+    "baseUrl":"https://www.saucedemo.com/",
+    "chromeWebSecurity": false,
+    "experimentalSessionAndOrigin": true
+}
