@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+    tools { nodejs 'Nodejs' }
+    stages {
+        stage('Install depedency') {
+            steps {
+                sh 'npm i'
+                sh 'npx cypress verify'
+            }
+        }
+        stage('Run Tests') {
+            parallel {
+                stage('Smoke') {
+                    steps {
+                        sh 'npm run test'
+                    }
+                }
+                stage('Regression') {
+                    steps {
+                        sh 'npm run test'
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            deleteDir()
+        }
+    }
+}

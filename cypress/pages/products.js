@@ -26,5 +26,4 @@ export class Products {
     sortProductsInDescendingOrder(){
         cy.get('select').select('Name (A to Z)').then(() => console.log("Item set in ascending order of names"));
     }
-
 }
