@@ -35,6 +35,7 @@ describe("Login functionality of Sauce Demo",function(){
         cart.checkout();                     
         checkoutinfo.checkout(jsonData);     
     })
+    
 })
 
 
